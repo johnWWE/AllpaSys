@@ -1,3 +1,5 @@
+/**backend/src/config/db.js */
+
 const { Pool } = require('pg');
 require('dotenv').config();
 
@@ -18,3 +20,4 @@ pool.connect()
   });
 
 module.exports = pool;
+
